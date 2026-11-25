@@ -6,7 +6,7 @@ authors:
     given-names: "Aaron"
     orcid: "https://orcid.org/0000-0001-5528-6905"
     affiliation: "Department of Neurosurgery, Jena University Hospital, Friedrich Schiller University Jena"
-version: "1.0.0"
+version: "1.1.0"
 doi: "10.5281/zenodo.24534427"
 date-released: "2026-11-25"
 license: MIT

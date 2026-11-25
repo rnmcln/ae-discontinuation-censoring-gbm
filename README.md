@@ -1,6 +1,6 @@
 # Loss of survival follow-up after adverse-event-related treatment discontinuation in glioblastoma trials
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24534427.svg)](https://doi.org/10.5281/zenodo.24534427)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24534426.svg)](https://doi.org/10.5281/zenodo.24534426)
 
 Simulation code and review data for a study of the bias that arises when survival follow-up in a single-arm trial ends at treatment discontinuation for adverse events (AEs), while a historical benchmark or external control cohort has complete ascertainment of death.
 
@@ -17,7 +17,7 @@ Main findings for an ineffective treatment with 20% discontinuation, a doubled p
 - benchmark comparison of 12-month overall survival positive in 11.2% of trials (nominal 2.5%);
 - weighting on baseline covariates removed at most 18% of the bias; weighting on discontinuation status removed it when some discontinuing patients remained under follow-up.
 
-A review of 55 single-arm phase II or I/II trials in high-grade glioma (PubMed Central, 2015 to 2025) found overall survival as the primary endpoint in 19, interpretation against historical benchmarks in 22, numerical reporting of AE-related discontinuation in 17, a statement of continued survival follow-up after discontinuation in 3 and an informative-censoring sensitivity analysis in 0.
+A review of 59 single-arm or non-randomised phase II, I/II or Ib/II trials in high-grade glioma (PubMed Central, 2015 to 2025) found overall survival as the primary endpoint in 20, interpretation against historical benchmarks in 31, numerical reporting of AE-related discontinuation in 25, a statement of continued survival follow-up after discontinuation in 7 and an informative-censoring sensitivity analysis in 0. Every screening decision is recorded, and every coded value is supported by a verbatim quotation from the source article.
 
 ## Repository structure
 
@@ -29,10 +29,14 @@ R/02_run_simulation.R           Monte Carlo simulation (scenario-specific seeds)
 R/03_tipping_point.R            delta-adjusted multiple imputation
 R/04_summarise.R                performance measures with Monte Carlo standard errors
 R/05_figures.R                  figure code
-review/01_search_screen.py      PubMed Central search and full-text screening
-review/02_summarise_review.py   summary of the coded review
+R/06_flow_diagram.R             record flow of the literature review
+review/01_search_screen.py      PubMed Central search and extraction of candidate passages
+review/02_summarise_review.py   trial-level summary of the coded review
 review/03_pubmed_denominator.py abstract-level PubMed query for representativeness
-review/review_coded.csv         manually verified coding of 63 screened articles (55 eligible)
+review/coding_manual.csv        eligibility criteria and coding rules
+review/review_records.csv       all 156 records with screening stage, decision and reason
+review/review_trials.csv        one row per included trial (59) with characteristics and coded items
+review/review_evidence.csv      verbatim quotations supporting each coded value, with location
 review/review_summary.csv
 review/pubmed_denominator.csv
 results/scenarios_truth.csv     calibrated parameters and true values
