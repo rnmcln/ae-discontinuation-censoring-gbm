@@ -6,7 +6,11 @@ and verbatim evidence are in review_trials.csv and review_evidence.csv.
 NCBI_API_KEY is optional (raises the rate limit). Writes candidates.csv and
 screen_auto.csv; full-text XML files are cached in pmc_xml/. Some articles have
 no body text in the E-utilities XML; these were read on the PubMed Central web
-page (text_source in review_trials.csv).
+page (text_source in review_trials.csv). A second source, the PubMed title and
+abstract search in 03_pubmed_denominator.py, identified further records; those
+without full text in PubMed Central were read on the publisher web page or in an
+author manuscript. Figures, image-only tables and supplementary files were read
+for every included report; their status is in review_supplementary_files.csv.
 """
 import json, os, re, time, urllib.parse, urllib.request
 import xml.etree.ElementTree as ET

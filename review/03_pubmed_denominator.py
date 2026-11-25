@@ -1,5 +1,7 @@
-"""Abstract-level PubMed query used to judge how representative the open-access
-full-text sample is. Writes pubmed_denominator.csv."""
+"""Abstract-level PubMed query, run as a second search source. Records not
+retrieved by the PubMed Central search in 01_search_screen.py were screened
+manually; decisions are in review_records.csv (search_source "PubMed search").
+Writes pubmed_denominator.csv."""
 import json, os, urllib.parse, urllib.request
 import xml.etree.ElementTree as ET
 import pandas as pd
@@ -23,10 +25,13 @@ ids = json.loads(q("esearch.fcgi", db="pubmed", term=TERM, retmax=500, retmode="
 root = ET.fromstring(q("efetch.fcgi", db="pubmed", id=",".join(ids), retmode="xml"))
 rows = []
 for a in root.findall(".//PubmedArticle"):
-    aid = {x.get("IdType"): x.text for x in a.findall(".//ArticleIdList/ArticleId")}
+    aid = {x.get("IdType"): x.text for x in a.findall("./PubmedData/ArticleIdList/ArticleId")}
     rows.append(dict(pmid=a.findtext(".//PMID"), pmcid=aid.get("pmc", ""), journal=a.findtext(".//ISOAbbreviation"),
                      year=a.findtext(".//JournalIssue/PubDate/Year"), title="".join(a.find(".//ArticleTitle").itertext())))
 d = pd.DataFrame(rows)
+rec = pd.read_csv("review_records.csv", dtype=str)
+d["in_pmc_search"] = d.pmid.isin(rec[rec.search_source != "PubMed search"].pmid)
 d.to_csv("pubmed_denominator.csv", index=False)
-print(f"{len(d)} records; {(d.pmcid != '').sum()} with PubMed Central full text")
+print(f"{len(d)} records; {(d.pmcid != '').sum()} with PubMed Central full text; "
+      f"{d.in_pmc_search.sum()} also retrieved by the PubMed Central search")
 print(d[d.pmcid == ""].journal.value_counts().to_string())
