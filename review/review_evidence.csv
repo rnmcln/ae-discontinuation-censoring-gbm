@@ -1,0 +1,223 @@
+trial_id,pmcid,source_pmcid,item,location,quote
+T1,PMC6156179,PMC6156179,Primary endpoint,Body text,"Analytic methods: The primary endpoint, radiographic response rate, was assessed using RANO criteria."
+T1,PMC6156179,PMC6156179,Sample size,Body text,Number of Patients Enrolled 36
+T2,PMC9995096,PMC9995096,Generic censoring rule,Body text,Patients alive and disease-free at the last study assessment were treated as censored.
+T2,PMC9995096,PMC9995096,Historical benchmark,Body text,would increase the PFS6 fraction from 54% (historical control measured from the date of diagnosis) to 70%
+T2,PMC9995096,PMC9995096,Primary endpoint,Abstract,remained progression-free 6 months after diagnosis (prespecified primary end point)
+T2,PMC9995096,PMC9995096,Sample size,Abstract,Sixty-four patients with resected nGBM were enrolled
+T3,PMC10491825,PMC10491825,Historical benchmark,Body text,test the hypothesis that TRC105 can double the historical median time to progression in this population
+T3,PMC10491825,PMC10491825,Losses counted,Body text,This patient was the only one with censored data other than 15 of the 16 patients enrolled in the combination cohort
+T3,PMC10491825,PMC10491825,Primary endpoint,Abstract,amended after first cohort’s enrollment to median overall survival (mOS)
+T3,PMC10491825,PMC10491825,Sample size,Abstract,6 patients were enrolled in TRC105 monotherapy cohort
+T3,PMC10491825,PMC10491825,Sample size,Body text,15 of the 16 patients enrolled in the combination cohort
+T3,PMC10491825,PMC10491825,Survival follow-up after discontinuation,Body text,their expiry information was captured in follow-up
+T4,PMC11293959,PMC11293959,Generic censoring rule,Body text,OS duration was calculated from the start date of treatment to the date of death or censoring at the time of analysis if patients were alive.
+T4,PMC11293959,PMC11293959,Losses counted,Body text,was alive at 60 months when lost to follow-up
+T4,PMC11293959,PMC11293959,Primary endpoint,Body text,The primary objective of arm 1 was to estimate the efficacy of oral TMZ+TRC102 as measured by overall objective response rate (ORR)
+T4,PMC11293959,PMC11293959,Sample size,Abstract,Arm 1 enrolled 19 patients
+T5,PMC11028634,PMC11028634,AE-related discontinuation,Full text (PMC web page),There were no patients with discontinued treatment due to adverse effects.
+T5,PMC11028634,PMC11028634,Primary endpoint,Full text (PMC web page),"Overall survival (OS), the primary endpoint of this study"
+T5,PMC11028634,PMC11028634,Sample size,Full text (PMC web page),Ten patients were enrolled in Group-R.
+T5,PMC11028634,PMC11028634,Sample size,Full text (PMC web page),Twenty-two patients were enrolled in Group-N.
+T6,PMC7594571,PMC7594571,Primary endpoint,Full text (PMC web page),The primary endpoint of this phase I/II study was to determine the MTD and DLT for 5-fraction SRS concurrent with TMZ
+T6,PMC7594571,PMC7594571,Sample size,Full text (PMC web page),We enrolled 30 patients from August 2010 to October 2015
+T7,PMC6367923,PMC6367923,AE-related discontinuation,Body text,Nine patients stopped treatment due to toxicity
+T7,PMC6367923,PMC6367923,Historical benchmark,Abstract,with median overall survival (mOS) compared to a historical control as the primary objective
+T7,PMC6367923,PMC6367923,Primary endpoint,Abstract,with median overall survival (mOS) compared to a historical control as the primary objective
+T7,PMC6367923,PMC6367923,Sample size,Abstract,The median age of the 81 evaluable participants was 58 years
+T7,PMC6367923,PMC6367923,Survival follow-up after discontinuation,Body text,All patients were followed for survival calculated from the date of diagnosis until death from any cause.
+T8,PMC9749349,PMC12439551,AE-related discontinuation,Body text,No patients discontinued treatment because of toxicity attributed to AV-GBM-1.
+T8,PMC9749349,PMC12439551,Handling of lost patients,Body text,"Four patients were censored before 36 months, including three who withdrew before starting treatment"
+T8,PMC9749349,PMC9749349,Historical benchmark,Body text,"would yield an OS of 75% at 14.6 months, compared to 50% in the benchmark study"
+T8,PMC9749349,PMC12439551,Losses counted,Body text,The fourth censored patient was lost to follow-up at 29.7 months
+T8,PMC9749349,PMC9749349,Primary endpoint,Body text,Overall survival from the date of intent-to-treat enrollment was the primary endpoint
+T8,PMC9749349,PMC9749349,Sample size,Body text,"Sixty patients were enrolled per ITT, but three withdrew before starting the treatment"
+T8,PMC9749349,PMC12439551,Survival follow-up after discontinuation,Body text,completing 3 years of follow-up for all surviving patients
+T9,PMC7229257,PMC7229257,AE-related discontinuation,Body text,AEs leading to treatment withdrawal were reported by 5 patients receiving combination treatment
+T9,PMC7229257,PMC7229257,Historical benchmark,Body text,a historical control group of 694 rGBM patients treated with bevacizumab was established based on 8 published trials and case series
+T9,PMC7229257,PMC7229257,Losses counted,Body text,"2 were lost to follow-up, 3 had withdrawn consent"
+T9,PMC7229257,PMC7229257,Primary endpoint,Abstract,The primary endpoint was median overall survival (OS).
+T9,PMC7229257,PMC7229257,Sample size,Abstract,Patients with rGBM ( n = 72) received VB-111
+T10,PMC7841164,PMC7841164,Handling of lost patients,Body text,Two of the 35 withdrew consent prior to evaluation and were excluded.
+T10,PMC7841164,PMC7841164,Historical benchmark,Abstract,which was a statistically significant improvement over the historical rate of 3%
+T10,PMC7841164,PMC7841164,Losses counted,Body text,Two of the 35 withdrew consent prior to evaluation and were excluded.
+T10,PMC7841164,PMC7841164,Primary endpoint,Body text,The primary endpoint was progression free survival at 4 months (PFS4) with comparison to historical control
+T10,PMC7841164,PMC7841164,Sample size,Body text,A total of 41 patients were enrolled from June of 2015 through June of 2017
+T11,PMC10891097,PMC10891097,Primary endpoint,Abstract,The primary objective of the Phase 2 was to evaluate the efficacy of BBB opening using magnetic resonance imaging (MRI).
+T11,PMC10891097,PMC10891097,Sample size,Body text,a total of 38 patients were registered for the trial
+T12,PMC10469652,PMC10469652,Historical benchmark,Body text,previous results from the available relevant literatures (10% [range: 11%–20%])
+T12,PMC10469652,PMC10469652,Primary endpoint,Abstract,The primary endpoint was the 6‐month progression‐free survival rate (PFS6).
+T12,PMC10469652,PMC10469652,Sample size,Abstract,21 patients were enrolled in the study and received GC1118 treatment
+T13,PMC12256749,PMC12256749,Primary endpoint,Abstract,6-month progression-free survival (PFS-6) as the primary endpoint
+T13,PMC12256749,PMC12256749,Sample size,Body text,Forty-five patients were enrolled in the study from August 2014 to October 2017.
+T14,PMC6603389,PMC6603389,AE-related discontinuation,Body text,Two patients (6.1%) discontinued the treatment because of grade 3 AEs.
+T14,PMC6603389,PMC6603389,Primary endpoint,Abstract,The primary endpoints were overall survival (OS) and progression-free survival (PFS).
+T14,PMC6603389,PMC6603389,Sample size,Abstract,A total of 39 patients were enrolled and 36 patients were evaluated for efficacy.
+T15,PMC11157627,PMC11157627,AE-related discontinuation,Abstract,No patient definitively discontinued treatment due to side effects.
+T15,PMC11157627,PMC11157627,Generic censoring rule,Body text,Patients alive at the date of the analysis were considered censored at the last documented contact.
+T15,PMC11157627,PMC11157627,Historical benchmark,Body text,"Based on phase 2 trials demonstrating a PFS-6 of 29% to 51% in recurrent IDHm HGGs treated with alkylating chemotherapy, the null hypothesis was a rate of 30% or lower"
+T15,PMC11157627,PMC11157627,Primary endpoint,Abstract,The primary endpoint was a 6-month progression-free survival rate (PFS-6)
+T15,PMC11157627,PMC11157627,Sample size,Abstract,Thirty-five patients with recurrent IDHm HGGs were enrolled
+T16,PMC10530294,PMC10530294,AE-related discontinuation,Body text,2 patients stopped sunitinib during the first week of treatment (preconcurrent phase) due to toxicities
+T16,PMC10530294,PMC10530294,Primary endpoint,Abstract,The primary endpoint was progression-free survival (PFS)
+T16,PMC10530294,PMC10530294,Sample size,Abstract,We enrolled 37 patients with unmethylated MGMT promoter GBM
+T16,PMC10530294,PMC10530294,Survival follow-up after discontinuation,Body text,Patients removed from study due to AEs were continuously followed for outcome and long-term toxicities.
+T17,PMC5909661,PMC5909661,Historical benchmark,Full text (PMC web page),The primary efficacy endpoint of the phase II trial was improvement in OS at 15 months from 50% (associated with standard RT and TMZ therapy)
+T17,PMC5909661,PMC5909661,Primary endpoint,Full text (PMC web page),The primary efficacy endpoint of the phase II trial was improvement in OS at 15 months from 50% (associated with standard RT and TMZ therapy)
+T17,PMC5909661,PMC5909661,Sample size,Full text (PMC web page),A total of 15 patients were enrolled in the phase I trial; 107 patients were enrolled in the phase II trial.
+T18,PMC5813746,PMC5813746,Historical benchmark,Body text,The study was designed to have adequate power to compare the efficacy of this regimen with a historical benchmark.
+T18,PMC5813746,PMC5813746,Primary endpoint,Abstract,The primary endpoint was 6‐month PFS (PFS6).
+T18,PMC5813746,PMC5813746,Sample size,Body text,A total of 40 patients were enrolled into the study.
+T19,PMC12816464,PMC12816464,AE-related discontinuation,Body text,"No patients were withdrawn from the study due to protocol violations, unacceptable adverse events"
+T19,PMC12816464,PMC12816464,Historical benchmark,Body text,which compares favorably to historical controls in unmethylated GBM
+T19,PMC12816464,PMC12816464,Losses counted,Body text,lost to follow-up (3.4%)
+T19,PMC12816464,PMC12816464,Primary endpoint,Body text,The primary end point was overall survival (OS)
+T19,PMC12816464,PMC12816464,Sample size,Body text,A total of 29 patients were enrolled into the study.
+T20,PMC9626993,PMC9626993,Historical benchmark,Abstract,which were better than the previous reports
+T20,PMC9626993,PMC9626993,Primary endpoint,Body text,The primary endpoints were recurrence-free survival (RFS) and overall survival (OS).
+T20,PMC9626993,PMC9626993,Sample size,Abstract,A total of 69 patients with histologically confirmed glioblastoma were enrolled.
+T20,PMC9626993,PMC9626993,Setting,Body text,Eligible patients received chemoradiotherapy (CRT) (PTV-GTV: 60 Gy at 2.0 Gy per fraction
+T21,PMC8729048,PMC8729048,AE-related discontinuation,Body text,one patient who had developed acute kidney injury during CCRT had to discontinue the interventional drug
+T21,PMC8729048,PMC8729048,Handling of lost patients,Body text,Patients who were lost to follow‐up after hopeless discharge in a terminal stage were assumed to have expired on the date of the latest contact.
+T21,PMC8729048,PMC8729048,Losses counted,Body text,one patient had withdrawn
+T21,PMC8729048,PMC8729048,Patient-level external control,Body text,Imbalances of baseline variables between the study and the external control populations were minimized by full optimal matching on the propensity scores.
+T21,PMC8729048,PMC8729048,Primary endpoint,Body text,The primary endpoint was progression‐free survival (PFS) at 6 months (6mo‐PFS).
+T21,PMC8729048,PMC8729048,Sample size,Abstract,"76 patients were enrolled, and 73 patients were included in the final analysis"
+T22,PMC7493746,PMC7493746,AE-related discontinuation,Body text,none discontinued PRF because of toxicity
+T22,PMC7493746,PMC7493746,Handling of lost patients,Body text,withdrew consent prior to any study intervention and was not included in any of the analyses
+T22,PMC7493746,PMC7493746,Losses counted,Body text,One additional patient with GBM withdrew consent prior to any study intervention and was not included in any of the analyses.
+T22,PMC7493746,PMC7493746,Primary endpoint,Abstract,The primary endpoint was the 6-month progression free survival (PFS6) rate
+T22,PMC7493746,PMC7493746,Sample size,Abstract,limited to no efficacy in GBM (n=16)
+T23,PMC7672995,PMC7672995,AE-related discontinuation,Body text,Two participants (20%) were taken off study because of toxicity (skin toxicity and muscle weakness).
+T23,PMC7672995,PMC7672995,Historical benchmark,Body text,did not extend PFS or OS in patients with recurrent GBM compared to historical controls
+T23,PMC7672995,PMC7672995,Primary endpoint,Body text,The primary endpoint was the proportion of patients alive and progression free at 6 months (PFS6).
+T23,PMC7672995,PMC7672995,Sample size,Body text,All 10 patients were enrolled in a single cohort
+T24,PMC8209606,PMC8209606,Historical benchmark,Abstract,Results were compared to those of a previous Japanese domestic bevacizumab trial for recurrent GB (JO22506).
+T24,PMC8209606,PMC8209606,Primary endpoint,Abstract,The primary endpoint was the 1-year survival rate
+T24,PMC8209606,PMC8209606,Sample size,Abstract,"27 recurrent MG cases, including 24 GB cases, who were enrolled"
+T24,PMC8209606,PMC8209606,Survival follow-up after discontinuation,Body text,"if possible, the survival survey was conducted and continued up to 2 years after BNCT"
+T25,PMC8920120,PMC8920120,Generic censoring rule,Body text,censored at the date of last follow-up on which the patient was alive
+T25,PMC8920120,PMC8920120,Historical benchmark,Abstract,The primary objective was to estimate improvement in 12-month overall survival (OS) versus historical control.
+T25,PMC8920120,PMC8920120,Primary endpoint,Abstract,The primary objective was to estimate improvement in 12-month overall survival (OS) versus historical control.
+T25,PMC8920120,PMC8920120,Sample size,Abstract,"Between 2016–2018, 26 patients were enrolled."
+T26,PMC12146080,PMC12146080,Historical benchmark,Body text,improvement in 12-month OS from 0.65 (historical control) to 0.85
+T26,PMC12146080,PMC12146080,Primary endpoint,Abstract,The primary endpoint is improvement in OS
+T26,PMC12146080,PMC12146080,Sample size,Abstract,"At interim analysis, 16 of 30 patients were enrolled."
+T27,PMC6277207,PMC6277207,AE-related discontinuation,Body text,2 (8%) had adverse effects including allergic reaction in 1 patient and refractory neutropenia in the other patient
+T27,PMC6277207,PMC6277207,Historical benchmark,Body text,Comparisons on survival data between our data and historical norm were performed in a descriptive manner
+T27,PMC6277207,PMC6277207,Losses counted,Body text,"Among 24 patients, 1 (4%) was lost to follow up after last visit on July 24 of 2015"
+T27,PMC6277207,PMC6277207,Primary endpoint,Body text,The primary endpoint was overall survival (OS).
+T27,PMC6277207,PMC6277207,Sample size,Body text,24 were enrolled between October
+T27,PMC6277207,PMC6277207,Survival follow-up after discontinuation,Body text,All patients were followed for progression free survival and overall survival data.
+T28,PMC4510472,PMC4510472,Historical benchmark,Abstract,VPA may result in improved outcomes compared to historical data
+T28,PMC4510472,PMC4510472,Sample size,Body text,Forty-three patients were enrolled in this study.
+T29,PMC11131046,PMC11131046,AE-related discontinuation,Body text,Eighteen patients (55%) discontinued treatment because of PD and 5 (15%) discontinued treatment due to AEs.
+T29,PMC11131046,PMC11131046,Historical benchmark,Body text,Assuming a median PFS of 6.9 months based on historical controls
+T29,PMC11131046,PMC11131046,Primary endpoint,Abstract,The primary endpoint was progression-free survival (PFS).
+T29,PMC11131046,PMC11131046,Sample size,Abstract,enrolled 33 treatment-naïve patients
+T30,PMC5762006,PMC5762006,Historical benchmark,Full text (PMC web page),from a historical 11% to 25%
+T30,PMC5762006,PMC5762006,Primary endpoint,Full text (PMC web page),The primary endpoint was a hybrid of 6mPFS rate and radiographic response rate (either 6mPFS or response of any duration).
+T30,PMC5762006,PMC5762006,Sample size,Full text (PMC web page),"among all eligible patients (stages 1 and 1B, n = 50)"
+T31,PMC8810630,PMC8810630,AE-related discontinuation,Body text,Five (6.6%) patients discontinued treatments due to AEs
+T31,PMC8810630,PMC8810630,Historical benchmark,Body text,efficacy comparisons are against historic controls rather than internal randomization to a standard regimen
+T31,PMC8810630,PMC8810630,Primary endpoint,Abstract,Primary endpoint was 6-month progression-free survival rate (PFS6).
+T31,PMC8810630,PMC8810630,Sample size,Abstract,Seventy-six adults with Karnofsky Performance Status ≥ 60 were enrolled.
+T32,PMC6792497,PMC6792497,AE-related discontinuation,Body text,One patient was taken off study due to unacceptable toxicity
+T32,PMC6792497,PMC6792497,Losses counted,Body text,Another patient withdrew consent from study participation
+T32,PMC6792497,PMC6792497,Primary endpoint,Abstract,Primary endpoint was 3‐month progression‐free survival.
+T32,PMC6792497,PMC6792497,Sample size,Abstract,Fifteen patients enrolled
+T33,PMC7034757,PMC7034757,AE-related discontinuation,Body text,Twenty-one percent of patients starting Irinotecan (20) discontinued Irinotecan due to significant toxicity.
+T33,PMC7034757,PMC7034757,AE-related discontinuation,Body text,the 95 eligible patients who started Irinotecan
+T33,PMC7034757,PMC7034757,Historical benchmark,Abstract,Median overall survival (OS) for all eligible patients was 16.9 months compared to 13.7 months of the historical control (p=0.03).
+T33,PMC7034757,PMC7034757,Losses counted,Body text,patient withdrawal of consent (1)
+T33,PMC7034757,PMC7034757,Primary endpoint,Body text,This Phase II study sought to determine if RT with concomitant low dose TMZ followed by adjuvant TMZ and Irinotecan improves the overall survival (OS)
+T33,PMC7034757,PMC7034757,Sample size,Abstract,"A total of 170 patients were enrolled, of which 152 were eligible."
+T34,PMC6076126,PMC6076126,Primary endpoint,Abstract,The primary efficacy endpoint was the percentage of patients who had not progressed after 24 weeks (PFS-24).
+T34,PMC6076126,PMC6076126,Sample size,Abstract,Thirty-seven patients were enrolled in this phase I/II trial
+T35,PMC9688169,PMC9688169,Handling of lost patients,Body text,Patients lost to follow-up were censored on the day when survival was last confirmed.
+T35,PMC9688169,PMC9688169,Historical benchmark,Body text,"the threshold 2-year survival rate of 30%, which were derived from the AVAglio study"
+T35,PMC9688169,PMC9688169,Primary endpoint,Abstract,"The primary endpoint, the 2-year survival rate of the BBP group"
+T35,PMC9688169,PMC9688169,Sample size,Body text,94 patients were enrolled from 39 sites in Japan
+T36,PMC4452613,PMC4452613,AE-related discontinuation,Body text,"Toxicity led to dose reductions in 2 patients and ultimately, to study discontinuation in the patient who wasn’t able to adhere to supportive care instructions."
+T36,PMC4452613,PMC4452613,Handling of lost patients,Body text,The patient who was unable to follow the diarrhea protocol was censored at the off study date.
+T36,PMC4452613,PMC4452613,Historical benchmark,Body text,significantly exceeds the 2 % overall response rate seen in prior trials
+T36,PMC4452613,PMC4452613,Losses counted,Body text,"The median overall survival from the first infusion of EP was 4.5 months (95 % CI 2.4–5.9, 2 patients censored)."
+T36,PMC4452613,PMC4452613,Primary endpoint,Abstract,The primary endpoint was PFS at 6-weeks.
+T36,PMC4452613,PMC4452613,Sample size,Abstract,20 patients (90 % GB) were enrolled
+T37,PMC5620204,PMC5620204,Primary endpoint,Abstract,"The primary endpoints were overall survival (OS), progression free survival (PFS), and incidence of radiation induced brain toxicity."
+T37,PMC5620204,PMC5620204,Sample size,Abstract,A total of 97 patients were included in this phase II study.
+T38,PMC10755935,PMC10755935,Historical benchmark,Body text,The PFS observed in this trial was 8.0 months and resulted promisingly longer than that reported in previous published trials in this population.
+T38,PMC10755935,PMC10755935,Primary endpoint,Abstract,Progression-free survival was the primary endpoint.
+T38,PMC10755935,PMC10755935,Sample size,Body text,45 patients were screened; 41 received at least one cycle of treatment
+T39,PMC7919338,PMC7919338,Historical benchmark,Full text (PMC web page),The PFS6 benchmark of 10% was derived from the combined results of phase II trials in patients with recurrent GBMs
+T39,PMC7919338,PMC7919338,Primary endpoint,Full text (PMC web page),with a primary endpoint of PFS6 on a standard phase II design
+T39,PMC7919338,PMC7919338,Sample size,Full text (PMC web page),A total of 47 patients received treatment
+T40,PMC4492239,PMC4492239,Patient-level external control,Full text (PMC web page),similar to a matched control group that received standard chemoradiotherapy from our institution
+T40,PMC4492239,PMC4492239,Primary endpoint,Full text (PMC web page),"The primary endpoint was tumor response rate, with a goal of 26% or greater."
+T40,PMC4492239,PMC4492239,Sample size,Full text (PMC web page),Forty-one patients were enrolled from December 2009 to November 2010.
+T41,PMC11135358,PMC11135358,AE-related discontinuation,Body text,"Five patients (38%) interrupted the treatment due to an AE, including 3 definitive discontinuations (23%)."
+T41,PMC11135358,PMC11135358,Primary endpoint,Abstract,The primary endpoint was the 6-month progression-free survival rate (PFS6).
+T41,PMC11135358,PMC11135358,Sample size,Body text,Thirteen patients received at least 1 dose of the investigational drug.
+T42,PMC12288025,PMC12288025,Primary endpoint,Body text,The primary end point was progression-free survival at 6 months (PFS6).
+T42,PMC12288025,PMC12288025,Sample size,Body text,34 patients were enrolled into the study and treated with nilotinib
+T43,PMC12562933,PMC12562933,AE-related discontinuation,Table 3,TEAE leading to treatment discontinuation of pamiparib only 0 (0.0) 0 (0.0) 0 (0.0)
+T43,PMC12562933,PMC12562933,Historical benchmark,Body text,compared with 40% in the historical control
+T43,PMC12562933,PMC12562933,Primary endpoint,Body text,"For the phase II study, the primary endpoint in Arms A and B was modified disease control rate (DCR)"
+T43,PMC12562933,PMC12562933,Sample size,Table 1,Total Newly Diagnosed Glioblastoma (N = 69)
+T43,PMC12562933,PMC12562933,Sample size,Table 2,Total Recurrent/Refractory Glioblastoma (N = 47)
+T44,PMC4588751,PMC4588751,AE-related discontinuation,Full text (PMC web page),"All 33 participants discontinued therapy, 27 due to disease progression and 6 due to toxicity (5 liver enzyme elevation and 1 allergic reaction)."
+T44,PMC4588751,PMC4588751,Primary endpoint,Full text (PMC web page),The primary endpoints were objective response and early progression (within 8 weeks on the study)
+T44,PMC4588751,PMC4588751,Sample size,Full text (PMC web page),A total of 33 participants were enrolled from the 2 stages of the trial.
+T45,PMC11071549,PMC11071549,AE-related discontinuation,Body text,"Of the evaluable 33 patients, 29 eventually came off treatment due to apparent disease progression"
+T45,PMC11071549,PMC11071549,AE-related discontinuation,Body text,3 patients came off due to toxicity
+T45,PMC11071549,PMC11071549,Primary endpoint,Body text,The primary objective was to determine the efficacy of the drug combination with reference to 6-month PFS.
+T45,PMC11071549,PMC11071549,Sample size,Body text,Forty-seven patients were enrolled in the study
+T46,PMC5947454,PMC5947454,Primary endpoint,Body text,Primary Endpoint Overall survival
+T46,PMC5947454,PMC5947454,Sample size,Abstract,The trial included 66 patients
+T47,PMC12351156,PMC12351156,AE-related discontinuation,Body text,eight (8%) due to AEs
+T47,PMC12351156,PMC12351156,AE-related discontinuation,Body text,TRAEs led to treatment discontinuation in 10 participants (10%).
+T47,PMC12351156,PMC12351156,Primary endpoint,Abstract,The dual primary end points were objective response rate
+T47,PMC12351156,PMC12351156,Sample size,Abstract,A total of 101 participants were enrolled
+T48,PMC11347333,PMC11347333,Losses counted,Body text,3 patients withdrew consent
+T48,PMC11347333,PMC11347333,Primary endpoint,Abstract,The primary endpoints are PFS at three months and safety.
+T48,PMC11347333,PMC11347333,Sample size,Abstract,"the enrollment, treatment and follow up of 9 evaluable patients"
+T49,PMC4483122,PMC4483122,AE-related discontinuation,Full text (PMC web page),Study treatment was subsequently discontinued for these 2 patients.
+T49,PMC4483122,PMC4483122,AE-related discontinuation,Full text (PMC web page),No additional patients discontinued treatment due to toxicity.
+T49,PMC4483122,PMC4483122,Generic censoring rule,Full text (PMC web page),"For OS, patients last known alive were censored as of the last contact date."
+T49,PMC4483122,PMC4483122,Historical benchmark,Full text (PMC web page),PFS and OS outcomes were compared in an exploratory manner to earlier rindopepimut studies and matched historical controls.
+T49,PMC4483122,PMC4483122,Losses counted,Full text (PMC web page),the majority of these patients withdrew consent for participation after learning of the assigned open-label study treatment
+T49,PMC4483122,PMC4483122,Primary endpoint,Full text (PMC web page),The primary objective of the redesigned study was to evaluate PFS status at 5.5 months from study day 0 (PFS5.5)
+T49,PMC4483122,PMC4483122,Sample size,Full text (PMC web page),Rindopepimut and standard adjuvant temozolomide chemotherapy were administered to 65 patients
+T49,PMC4483122,PMC4483122,Survival follow-up after discontinuation,Full text (PMC web page),"Following progression of disease, all patients were followed for survival."
+T50,PMC5737732,PMC5737732,Primary endpoint,Full text (PMC web page),The primary endpoint was the rate of progression-free survival (PFS) at 6 months (PFS6) according to RANO criteria.
+T50,PMC5737732,PMC5737732,Sample size,Full text (PMC web page),Thirty patients in Cohort A and 19 in Cohort B were enrolled.
+T51,PMC8342578,PMC8342578,Primary endpoint,Full text (PMC web page),The primary endpoint was the objective response rate after chemotherapy.
+T51,PMC8342578,PMC8342578,Sample size,Full text (PMC web page),"55 patients (median age of 53.1 years; range, 20.5–70.2) were included"
+T52,PMC6891194,PMC6891194,Primary endpoint,Body text,The primary objective for the Phase II study was to assess the efficacy of plerixafor as measured by progression free survival at 6 months (PFS6)
+T52,PMC6891194,PMC6891194,Sample size,Abstract,We enrolled 9 patients to the phase I study and an additional 20 patients to phase II
+T53,PMC9388376,PMC9388376,Primary endpoint,Abstract,The primary endpoint of 1-yr survival rate after G47∆ initiation
+T53,PMC9388376,PMC9388376,Sample size,Body text,19 patients who matched the eligibility criteria had been enrolled and composed the full analysis set (FAS)
+T54,PMC9304402,PMC9304402,Primary endpoint,Abstract,assessing the safety (primary endpoint) of G47∆
+T54,PMC9304402,PMC9304402,Sample size,Abstract,"Thirteen patients completed treatment (low dose, n = 3; set dose, n = 10)."
+T55,PMC12769667,PMC12769667,AE-related discontinuation,Figure caption 5,for the subgroup of 13 patients who discontinued due to toxicity
+T55,PMC12769667,PMC12769667,AE-related discontinuation,Body text,"In total, 74 patients received 75 mg/day glasdegib."
+T55,PMC12769667,PMC12769667,Generic censoring rule,Body text,Patients without events were censored at the last follow-up.
+T55,PMC12769667,PMC12769667,Historical benchmark,Body text,improve the 15-m OS rate from 45% as described in benchmark studies
+T55,PMC12769667,PMC12769667,Losses counted,Body text,one patient withdrew consent
+T55,PMC12769667,PMC12769667,Primary endpoint,Abstract,The primary endpoint was the 15-months overall survival (OS)
+T55,PMC12769667,PMC12769667,Sample size,Body text,"94 patients were screened, and 79 were enrolled"
+T56,PMC9347965,PMC9347965,Generic censoring rule,Body text,Patients who were alive without disease progression or relapse were censored at the time of last contact.
+T56,PMC9347965,PMC9347965,Sample size,Abstract,25 underwent leukapheresis; and 20 completed ≥1 cycle
+T56,PMC9347965,PMC9347965,Setting,Body text,dose-expansion trial in patients with recurrent glioblastoma (with a planned resection) and in patients with newly diagnosed glioblastoma
+T57,PMC12034766,PMC12034766,Historical benchmark,Body text,Based on historical data the median death time is about 15 months.
+T57,PMC12034766,PMC12034766,Primary endpoint,Abstract,The primary outcome was overall survival (OS)
+T57,PMC12034766,PMC12034766,Sample size,Body text,"Eighteen patients were eliminated during screening, and 60 patients were treated"
+T58,PMC6135089,PMC6135089,Losses counted,Body text,opting to withdraw consent due to abdominal pain
+T58,PMC6135089,PMC6135089,Primary endpoint,Abstract,The primary endpoints were tolerability and safety.
+T58,PMC6135089,PMC6135089,Sample size,Abstract,12 patients were enrolled in this study over 2 years.
+T59,PMC10763299,PMC10763299,AE-related discontinuation,Body text,No patient discontinued treatment due to AEs.
+T59,PMC10763299,PMC10763299,Historical benchmark,Body text,historical outcomes in rHGG were considered for comparison
+T59,PMC10763299,PMC10763299,Losses counted,Body text,one patient was excluded from the efficacy and safety assessment due to voluntary withdrawal of consent
+T59,PMC10763299,PMC10763299,Primary endpoint,Abstract,The primary endpoint was the median progression-free survival (mPFS)
+T59,PMC10763299,PMC10763299,Sample size,Body text,26 eligible patients with rHGG were enrolled
+T59,PMC10763299,PMC10763299,Survival follow-up after discontinuation,Body text,"Post-study data were also collected, and the study followed up on treatment survival status and collected information on subsequent therapies every 2 months."

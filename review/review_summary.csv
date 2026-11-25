@@ -1,18 +1,57 @@
 item,n,N,percent
-ae_disc_reported,17.0,55,30.9
-postdisc_survival_fu_stated,3.0,55,5.5
-os_ltfu_reported,6.0,55,10.9
-os_censoring_of_lost_described,3.0,55,5.5
-informative_censoring_sensitivity,0.0,55,0.0
-historical_benchmark,22.0,55,40.0
-external_patient_level_control,1.0,55,1.8
-primary_endpoint: Progression-free survival or PFS rate,22.0,55,40.0
-primary_endpoint: Overall survival or OS rate,19.0,55,34.5
-primary_endpoint: Response or disease control,5.0,55,9.1
-primary_endpoint: Not identified in text,5.0,55,9.1
-primary_endpoint: Safety or feasibility,4.0,55,7.3
-ae_disc_pct_nonzero_min,,8,5.4
-ae_disc_pct_nonzero_median,,8,12.6
-ae_disc_pct_nonzero_max,,8,21.0
-ae_disc_explicit_zero,5.0,55,
-ae_disc_reported_in_table_only,1.0,55,
+historical_benchmark,31.0,59,52.5
+external_patient_level_control,2.0,59,3.4
+ae_discontinuation_reported,25.0,59,42.4
+losses_counted,17.0,59,28.8
+handling_of_lost_described,6.0,59,10.2
+informative_censoring_sensitivity,0.0,59,0.0
+benchmark_or_external_control,33.0,59,55.9
+survival_followup_after_discontinuation: Not stated,51.0,59,86.4
+survival_followup_after_discontinuation: Stated,7.0,59,11.9
+survival_followup_after_discontinuation: After progression only,1.0,59,1.7
+primary_endpoint: Progression-free survival or PFS rate,26.0,59,44.1
+primary_endpoint: Overall survival or OS rate,20.0,59,33.9
+primary_endpoint: Response or disease control,7.0,59,11.9
+primary_endpoint: Safety or feasibility,4.0,59,6.8
+primary_endpoint: Not identified in text,2.0,59,3.4
+setting: Recurrent,28.0,59,47.5
+setting: Newly diagnosed,28.0,59,47.5
+setting: Newly diagnosed and recurrent,3.0,59,5.1
+histology: Glioblastoma,49.0,59,83.1
+histology: High-grade glioma,9.0,59,15.3
+histology: Anaplastic glioma,1.0,59,1.7
+phase: II,45.0,59,76.3
+phase: I/II,11.0,59,18.6
+phase: Ib/II,2.0,59,3.4
+phase: IIa,1.0,59,1.7
+ae_disc_pct_determinable,24.0,59,
+ae_disc_pct_zero,6.0,59,
+ae_disc_pct_nonzero_min,,18,1.3
+ae_disc_pct_nonzero_median,,18,8.1
+ae_disc_pct_nonzero_max,,18,23.1
+sample_size_median,,59,38.0
+sample_size_q1,,59,25.0
+sample_size_q3,,59,62.0
+sample_size_min,,59,9.0
+sample_size_max,,59,170.0
+year_min,,59,2015.0
+year_max,,59,2025.0
+html_full_text_only,10.0,59,
+records: Article type | Excluded,45.0,156,
+records: Full text | Excluded,7.0,156,
+records: Full text | Included,59.0,156,
+records: Full text | Included as companion report,1.0,156,
+records: Title and abstract | Excluded,44.0,156,
+excluded: Article type | Conference abstract,37.0,156,
+excluded: Article type | Editorial or commentary,2.0,156,
+excluded: Article type | Letter or reply,3.0,156,
+excluded: Article type | Review,3.0,156,
+excluded: Full text | Not restricted to high-grade glioma,4.0,156,
+excluded: Full text | Randomised comparison with a control treatment,1.0,156,
+excluded: Full text | Study protocol without results,2.0,156,
+excluded: Title and abstract | Low-grade glioma,5.0,156,
+"excluded: Title and abstract | Not a trial report (review, meta-research or commentary)",4.0,156,
+excluded: Title and abstract | Paediatric population,14.0,156,
+excluded: Title and abstract | Randomised comparison with a control treatment,15.0,156,
+"excluded: Title and abstract | Secondary, imaging or translational analysis",3.0,156,
+excluded: Title and abstract | Study protocol without results,3.0,156,

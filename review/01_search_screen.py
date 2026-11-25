@@ -1,8 +1,12 @@
-"""Search PubMed Central and screen full texts of single-arm phase II trials in
-high-grade glioma for statements on AE-related discontinuation and survival
-follow-up. Requires the environment variable NCBI_API_KEY (optional, raises the
-rate limit). Writes candidates.csv and screen_auto.csv; full-text XML files are
-cached in pmc_xml/.
+"""Search PubMed Central for single-arm phase II trials in high-grade glioma and
+extract candidate passages on AE-related discontinuation and survival follow-up
+to support manual coding. Screening decisions are not made here: they were made
+manually for every record and are recorded in review_records.csv; the coded data
+and verbatim evidence are in review_trials.csv and review_evidence.csv.
+NCBI_API_KEY is optional (raises the rate limit). Writes candidates.csv and
+screen_auto.csv; full-text XML files are cached in pmc_xml/. Some articles have
+no body text in the E-utilities XML; these were read on the PubMed Central web
+page (text_source in review_trials.csv).
 """
 import json, os, re, time, urllib.parse, urllib.request
 import xml.etree.ElementTree as ET
@@ -14,7 +18,8 @@ TERM = ('(glioblastoma[ti] OR "high-grade glioma"[ti] OR gliomas[ti] OR glioma[t
         '("phase II"[ti] OR "phase 2"[ti] OR "phase IIa"[ti] OR "phase Ib/II"[ti] OR "phase I/II"[ti]) AND '
         '("single-arm" OR "single arm" OR "open-label, non-randomised" OR "nonrandomized" OR "non-randomized") '
         'AND "overall survival" AND 2015:2025[pdat]')
-TITLE_EXCL = re.compile(
+TITLE_FLAG = re.compile(  # flags titles for manual screening; not an exclusion rule
+   
     r"pediatric|paediatric|child|DIPG|pontine|protocol|randomi[sz]ed|meta-analysis|review|low-grade|low grade|"
     r"retrospective|secondary analysis|post hoc|exploratory analysis|imaging|MRI|biomarker|radiomic|"
     r"Grade II Glioma|Regulatory Science|Inability of positive|ACRIN|Iron-based|Long-Term Report", re.I)
@@ -96,8 +101,10 @@ def main():
                          type=art.get("article-type") if art is not None else "",
                          title=re.sub(r"\s+", " ", title)))
     cand = pd.DataFrame(rows)
+    NON_REPORT = {"abstract", "meeting-report", "editorial", "letter", "reply", "review-article", "systematic-review"}
+    cand["title_flag"] = cand.title.fillna("").str.contains(TITLE_FLAG)
     cand.to_csv("candidates.csv", index=False)
-    keep = cand[(cand.type == "research-article") & ~cand.title.str.contains(TITLE_EXCL)].copy()
+    keep = cand[~cand.type.isin(NON_REPORT)].copy()
     out = []
     for _, r in keep.iterrows():
         xml = efetch(r.pmcid[3:])
@@ -113,7 +120,7 @@ def main():
             rec[k + "_table_snippets"] = " || ".join(h[:300] for h in thits[:3])
         out.append(rec)
     pd.DataFrame(out).to_csv("screen_auto.csv", index=False)
-    print(f"{len(cand)} records retrieved; {len(out)} screened after title exclusions")
+    print(f"{len(cand)} records retrieved; candidate passages extracted for {len(out)} full reports")
 
 
 if __name__ == "__main__":
