@@ -1,0 +1,18 @@
+item,n,N,percent
+ae_disc_reported,17.0,55,30.9
+postdisc_survival_fu_stated,3.0,55,5.5
+os_ltfu_reported,6.0,55,10.9
+os_censoring_of_lost_described,3.0,55,5.5
+informative_censoring_sensitivity,0.0,55,0.0
+historical_benchmark,22.0,55,40.0
+external_patient_level_control,1.0,55,1.8
+primary_endpoint: Progression-free survival or PFS rate,22.0,55,40.0
+primary_endpoint: Overall survival or OS rate,19.0,55,34.5
+primary_endpoint: Response or disease control,5.0,55,9.1
+primary_endpoint: Not identified in text,5.0,55,9.1
+primary_endpoint: Safety or feasibility,4.0,55,7.3
+ae_disc_pct_nonzero_min,,8,5.4
+ae_disc_pct_nonzero_median,,8,12.6
+ae_disc_pct_nonzero_max,,8,21.0
+ae_disc_explicit_zero,5.0,55,
+ae_disc_reported_in_table_only,1.0,55,
