@@ -1,7 +1,7 @@
 {
   "title": "Loss of survival follow-up after adverse-event-related treatment discontinuation in single-arm and externally controlled glioblastoma trials: simulation code and review data",
   "upload_type": "software",
-  "description": "Code, scenario definitions, true values and performance tables for a simulation study of bias from loss of survival follow-up at adverse-event-related treatment discontinuation in single-arm and externally controlled glioblastoma trials, with a coded review of reporting in 74 published single-arm or non-randomised phase II, I/II or Ib/II high-grade glioma trials identified in PubMed Central and PubMed, with all screening decisions and the evidence for every coded value from text, figures and supplementary files.",
+  "description": "Code, scenario definitions, true values and performance tables for a simulation study of bias from loss of survival follow-up at adverse-event-related treatment discontinuation in single-arm and externally controlled glioblastoma trials, with a coded review of reporting in 76 published single-arm or non-randomised phase II, I/II or Ib/II high-grade glioma trials identified in PubMed Central and PubMed, with all screening decisions and the evidence for every coded value from text, figures and supplementary files.",
   "creators": [
     {
       "name": "Lawson McLean, Aaron",
@@ -18,5 +18,5 @@
     "simulation study",
     "single-arm trial"
   ],
-  "version": "v1.2.1"
+  "version": "v1.3.0"
 }

@@ -17,7 +17,7 @@ Main findings for an ineffective treatment with 20% discontinuation, a doubled p
 - benchmark comparison of 12-month overall survival positive in 11.2% of trials (nominal 2.5%);
 - weighting on baseline covariates removed at most 18% of the bias; weighting on discontinuation status removed it when some discontinuing patients remained under follow-up.
 
-A review of 74 single-arm or non-randomised phase II, I/II or Ib/II trials in high-grade glioma (PubMed Central full-text and PubMed searches, 2015 to 2025) found overall survival as the primary endpoint in 25, interpretation against historical benchmarks in 44, numerical reporting of AE-related discontinuation in 36, a statement of continued survival follow-up after discontinuation in 9 and an informative-censoring sensitivity analysis in 0. Text, tables, figures and retrievable supplementary files were coded. Every screening decision is recorded, and every coded value is supported by a verbatim quotation or by text transcribed from a figure, with its location.
+A review of 76 single-arm or non-randomised phase II, I/II or Ib/II trials in high-grade glioma (PubMed Central full-text and PubMed searches, 2015 to 2025) found overall survival as the primary endpoint in 26, interpretation against historical benchmarks in 46, numerical reporting of AE-related discontinuation in 37, a statement of continued survival follow-up after discontinuation in 9 and an informative-censoring sensitivity analysis in 0. Text, tables, figures and retrievable supplementary files were coded. Every screening decision is recorded, and every coded value is supported by a verbatim quotation or by text transcribed from a figure, with its location.
 
 ## Repository structure
 
@@ -35,7 +35,7 @@ review/02_summarise_review.py   trial-level summary of the coded review
 review/03_pubmed_denominator.py PubMed title and abstract search (second source)
 review/coding_manual.csv        eligibility criteria and coding rules
 review/review_records.csv       all 185 unique records with search source, screening stage, decision and reason
-review/review_trials.csv        one row per included trial (74) with characteristics and coded items
+review/review_trials.csv        one row per included trial (76) with characteristics and coded items
 review/review_evidence.csv      evidence supporting each coded value, with location and verification
 review/review_supplementary_files.csv  status of the supplementary files of each included report
 review/review_summary.csv

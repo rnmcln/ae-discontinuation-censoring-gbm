@@ -9,7 +9,7 @@ lst <- function(st) { e <- ex[ex$stage == st, ]; e <- e[order(-e$n), ]; paste0(e
 tot <- s$N[s$item == "records: Full text | Included"][1]
 n_type <- g("records: Article type | Excluded"); n_ta <- g("records: Title and abstract | Excluded"); n_ft <- g("records: Full text | Excluded")
 n_inc <- g("records: Full text | Included"); n_comp <- g("records: Full text | Included as companion report")
-n_na <- g("records: Full text | Not assessed")
+n_na <- g("records: Full text | Not assessed"); if (length(n_na) == 0) n_na <- 0
 n_pmc <- g("records by search_source: PMC full-text search"); n_both <- g("records by search_source: Both"); n_pm <- g("records by search_source: PubMed search")
 stopifnot(n_pmc + n_both + n_pm == tot)
 main <- data.frame(y = c(10, 7.4, 4.8, 2.0),
@@ -21,7 +21,7 @@ main <- data.frame(y = c(10, 7.4, 4.8, 2.0),
 side <- data.frame(y = c(8.7, 6.1, 3.4),
   lab = c(paste0("Excluded by article type, n = ", n_type, "\n", lst("Article type")),
           paste0("Excluded, n = ", n_ta, "\n", lst("Title and abstract")),
-          paste0("Excluded, n = ", n_ft, "\n", lst("Full text"), "\nFull text not obtained, n = ", n_na)))
+          paste0("Excluded, n = ", n_ft, "\n", lst("Full text"), if (n_na > 0) paste0("\nFull text not obtained, n = ", n_na) else "")))
 p <- ggplot() +
   geom_segment(aes(x = 0, xend = 0, y = 9.45, yend = 2.42), colour = line, linewidth = 0.3, arrow = arrow(length = unit(1.2, "mm"), type = "closed")) +
   geom_segment(data = side, aes(x = 0, xend = 0.55, y = y, yend = y), colour = line, linewidth = 0.3, arrow = arrow(length = unit(1.2, "mm"), type = "closed")) +

@@ -1,72 +1,72 @@
 item,n,N,percent
-historical_benchmark,44.0,74,59.5
-external_patient_level_control,3.0,74,4.1
-ae_discontinuation_reported,36.0,74,48.6
-losses_counted,29.0,74,39.2
-handling_of_lost_described,12.0,74,16.2
-informative_censoring_sensitivity,0.0,74,0.0
-benchmark_or_external_control,46.0,74,62.2
-survival_followup_after_discontinuation: Not stated,60.0,74,81.1
-survival_followup_after_discontinuation: Stated,9.0,74,12.2
-survival_followup_after_discontinuation: Shown in a figure,4.0,74,5.4
-survival_followup_after_discontinuation: After progression only,1.0,74,1.4
-primary_endpoint: Progression-free survival or PFS rate,33.0,74,44.6
-primary_endpoint: Overall survival or OS rate,25.0,74,33.8
-primary_endpoint: Response or disease control,9.0,74,12.2
-primary_endpoint: Safety or feasibility,5.0,74,6.8
-primary_endpoint: Not identified in text,2.0,74,2.7
-setting: Recurrent,37.0,74,50.0
-setting: Newly diagnosed,34.0,74,45.9
-setting: Newly diagnosed and recurrent,3.0,74,4.1
-histology: Glioblastoma,62.0,74,83.8
-histology: High-grade glioma,11.0,74,14.9
-histology: Anaplastic glioma,1.0,74,1.4
-phase: II,58.0,74,78.4
-phase: I/II,13.0,74,17.6
-phase: Ib/II,2.0,74,2.7
-phase: IIa,1.0,74,1.4
-ae_disc_pct_determinable,35.0,74,
-ae_disc_pct_zero,7.0,74,
+historical_benchmark,46.0,76,60.5
+external_patient_level_control,3.0,76,3.9
+ae_discontinuation_reported,37.0,76,48.7
+losses_counted,29.0,76,38.2
+handling_of_lost_described,12.0,76,15.8
+informative_censoring_sensitivity,0.0,76,0.0
+benchmark_or_external_control,48.0,76,63.2
+survival_followup_after_discontinuation: Not stated,62.0,76,81.6
+survival_followup_after_discontinuation: Stated,9.0,76,11.8
+survival_followup_after_discontinuation: Shown in a figure,4.0,76,5.3
+survival_followup_after_discontinuation: After progression only,1.0,76,1.3
+primary_endpoint: Progression-free survival or PFS rate,34.0,76,44.7
+primary_endpoint: Overall survival or OS rate,26.0,76,34.2
+primary_endpoint: Response or disease control,9.0,76,11.8
+primary_endpoint: Safety or feasibility,5.0,76,6.6
+primary_endpoint: Not identified in text,2.0,76,2.6
+setting: Recurrent,38.0,76,50.0
+setting: Newly diagnosed,34.0,76,44.7
+setting: Newly diagnosed and recurrent,4.0,76,5.3
+histology: Glioblastoma,63.0,76,82.9
+histology: High-grade glioma,12.0,76,15.8
+histology: Anaplastic glioma,1.0,76,1.3
+phase: II,60.0,76,78.9
+phase: I/II,13.0,76,17.1
+phase: Ib/II,2.0,76,2.6
+phase: IIa,1.0,76,1.3
+ae_disc_pct_determinable,36.0,76,
+ae_disc_pct_zero,8.0,76,
 ae_disc_pct_nonzero_min,,28,1.3
 ae_disc_pct_nonzero_median,,28,8.1
 ae_disc_pct_nonzero_max,,28,33.3
-sample_size_median,,74,40.0
-sample_size_q1,,74,26.25
-sample_size_q3,,74,63.0
-sample_size_min,,74,9.0
-sample_size_max,,74,222.0
-year_min,,74,2015.0
-year_max,,74,2025.0
-trials by text_source: PMC XML full text,53.0,74,
-trials by text_source: PMC HTML full text (no body text in E-utilities XML),10.0,74,
-trials by text_source: Publisher full text (web page),8.0,74,
-trials by text_source: PMC HTML full text (abbreviated Oncologist trial report; no body text in E-utilities XML),1.0,74,
-"trials by text_source: Author manuscript (HAL repository, PDF)",1.0,74,
-trials by text_source: PMC HTML full text (Oncologist trial report; no body text in E-utilities XML),1.0,74,
-trials by search_source: PMC full-text search,32.0,74,
-trials by search_source: Both,27.0,74,
-trials by search_source: PubMed search,15.0,74,
-trials with any item coded from figures or supplementary files,13.0,74,
-coded from figures or supplementary files: AE-related discontinuation,3.0,74,
-coded from figures or supplementary files: Losses counted,5.0,74,
-coded from figures or supplementary files: Survival follow-up after discontinuation,6.0,74,
-coded from figures or supplementary files: Handling of lost patients,2.0,74,
-evidence rows: string match,296.0,312,
-evidence rows: transcribed,12.0,312,
-evidence rows: described,3.0,312,
-evidence rows: table cells,1.0,312,
-reports by supplementary files: Read,32.0,76,
-reports by supplementary files: None listed,31.0,76,
-reports by supplementary files: Not retrieved,12.0,76,
-reports by supplementary files: Not read,1.0,76,
+sample_size_median,,76,40.5
+sample_size_q1,,76,26.75
+sample_size_q3,,76,64.25
+sample_size_min,,76,9.0
+sample_size_max,,76,222.0
+year_min,,76,2015.0
+year_max,,76,2025.0
+trials by text_source: PMC XML full text,53.0,76,
+trials by text_source: PMC HTML full text (no body text in E-utilities XML),10.0,76,
+trials by text_source: Publisher full text (web page),8.0,76,
+trials by text_source: Publisher full text (PDF),2.0,76,
+trials by text_source: PMC HTML full text (abbreviated Oncologist trial report; no body text in E-utilities XML),1.0,76,
+"trials by text_source: Author manuscript (HAL repository, PDF)",1.0,76,
+trials by text_source: PMC HTML full text (Oncologist trial report; no body text in E-utilities XML),1.0,76,
+trials by search_source: PMC full-text search,32.0,76,
+trials by search_source: Both,27.0,76,
+trials by search_source: PubMed search,17.0,76,
+trials with any item coded from figures or supplementary files,13.0,76,
+coded from figures or supplementary files: AE-related discontinuation,3.0,76,
+coded from figures or supplementary files: Losses counted,5.0,76,
+coded from figures or supplementary files: Survival follow-up after discontinuation,6.0,76,
+coded from figures or supplementary files: Handling of lost patients,2.0,76,
+evidence rows: string match,303.0,319,
+evidence rows: transcribed,12.0,319,
+evidence rows: described,3.0,319,
+evidence rows: table cells,1.0,319,
+reports by supplementary files: None listed,33.0,78,
+reports by supplementary files: Read,32.0,78,
+reports by supplementary files: Not retrieved,12.0,78,
+reports by supplementary files: Not read,1.0,78,
 records by search_source: PMC full-text search,120.0,185,
 records by search_source: Both,36.0,185,
 records by search_source: PubMed search,29.0,185,
 records: Article type | Excluded,47.0,185,
 records: Full text | Excluded,8.0,185,
-records: Full text | Included,74.0,185,
+records: Full text | Included,76.0,185,
 records: Full text | Included as companion report,2.0,185,
-records: Full text | Not assessed,2.0,185,
 records: Title and abstract | Excluded,52.0,185,
 excluded: Article type | Conference abstract,37.0,185,
 excluded: Article type | Editorial or commentary,2.0,185,
