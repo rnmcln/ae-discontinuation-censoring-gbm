@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite it as below."
+title: "Loss of survival follow-up after adverse-event-related treatment discontinuation in single-arm and externally controlled glioblastoma trials: simulation code and review data"
+authors:
+  - family-names: "Lawson McLean"
+    given-names: "Aaron"
+    orcid: "https://orcid.org/0000-0001-5528-6905"
+    affiliation: "Department of Neurosurgery, Jena University Hospital, Friedrich Schiller University Jena"
+version: "1.0.0"
+date-released: "2026-11-25"
+license: MIT
+repository-code: "https://github.com/rnmcln/ae-discontinuation-censoring-gbm"

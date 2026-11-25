@@ -1,0 +1,9 @@
+figures/
+review/pmc_xml/
+review/candidates.csv
+review/screen_auto.csv
+.Rhistory
+.RData
+.Rproj.user/
+.DS_Store
+results/raw/

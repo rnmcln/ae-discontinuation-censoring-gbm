@@ -1,0 +1,21 @@
+{
+  "title": "Loss of survival follow-up after adverse-event-related treatment discontinuation in single-arm and externally controlled glioblastoma trials: simulation code and review data",
+  "upload_type": "software",
+  "description": "Code, scenario definitions, true values and performance tables for a simulation study of bias from loss of survival follow-up at adverse-event-related treatment discontinuation in single-arm and externally controlled glioblastoma trials, with a coded review of reporting in 55 published single-arm phase II or I/II high-grade glioma trials.",
+  "creators": [
+    {
+      "name": "Lawson McLean, Aaron",
+      "affiliation": "Department of Neurosurgery, Jena University Hospital, Friedrich Schiller University Jena",
+      "orcid": "0000-0001-5528-6905"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "glioblastoma",
+    "external control arm",
+    "informative censoring",
+    "inverse probability of censoring weighting",
+    "simulation study",
+    "single-arm trial"
+  ]
+}
