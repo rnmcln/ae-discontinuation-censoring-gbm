@@ -1,5 +1,7 @@
 # Loss of survival follow-up after adverse-event-related treatment discontinuation in glioblastoma trials
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24534427.svg)](https://doi.org/10.5281/zenodo.24534427)
+
 Simulation code and review data for a study of the bias that arises when survival follow-up in a single-arm trial ends at treatment discontinuation for adverse events (AEs), while a historical benchmark or external control cohort has complete ascertainment of death.
 
 ## Summary
